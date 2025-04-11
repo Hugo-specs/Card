@@ -1,0 +1,53 @@
+body{
+ background-image: url(../img/Fundo-destruido.png);
+}
+img{
+  border-radius: 10%;
+  height: 40vh;
+  margin-top: -4.9vh;
+}
+section{
+  margin-left: 10px;
+  background-color: rgb(100, 0, 0);
+    width: 0%; 
+    height: 80vh;
+    margin-left: 100px;
+    margin-top: 3vh;
+    transition: .7s;
+    border-radius: 10%;
+}
+section:hover{
+  margin-left: 10px;
+  background-color: rgb(100, 0, 0);
+    width: 60%; 
+    height: 80vh;
+    margin-left: 100px;
+    margin-top: 3vh;
+    transition: .7s;
+    border-radius: 10%;
+}
+h1{
+  margin-left: 40%;
+  overflow: hidden;
+  font-size: 40px;
+}
+p{
+  font-size: 28px;
+  overflow: hidden;
+  margin: 30px;
+  height: 30vh;
+  width: 90%;
+  overflow: hidden;
+}
+h1:hover{
+  margin-left: 44%;
+}
+p:hover{
+  font-size: 28px;
+}
+a{
+  overflow: hidden;
+}
+a:hover{
+  font-size: 28px;
+}
